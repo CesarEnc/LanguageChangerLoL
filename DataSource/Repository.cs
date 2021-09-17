@@ -11,7 +11,6 @@ namespace LanguageChangerLoL.DataSource
     public static class Repository
     {
         public static List<string> Languages { get; set; }
-        public static void Main() { }
         public static void LoadRepository()
         {
             using (StreamReader reader = new StreamReader(@"Data\Languages.json"))
